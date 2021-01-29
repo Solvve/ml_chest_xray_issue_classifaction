@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block result %}
+
+<h3>Results</h3>
+
+<b>{{msg}}</b>
+
+<h4>Original image</h4>
+<img src="{{img_original}}" id="img" alt="Chart" height="300" width="300">
+
+<h4>Analyzed image</h4>
+
+<img src="{{img_detected}}" id="img" alt="Chart" height="800" width="600">
+
+
+<form method="POST" action="" enctype="multipart/form-data">
+    <p><input type="submit" value="Repeat"></p>
+</form>
+
+{% endblock %}

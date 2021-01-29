@@ -1,0 +1,13 @@
+{
+  "model": {"backbone": {"class_name": "torchvision.models.detection.fasterrcnn_resnet50_fpn", "params": {"pretrained": false}}, "head": {"class_name": "torchvision.models.detection.faster_rcnn.FastRCNNPredictor", "params": {"num_classes": 15}}},
+  "augmentation": {"valid": {"augs": [{"class_name": "albumentations.Resize", "params": {"height": 512, "width": 512, "p": 1}}, {"class_name": "albumentations.pytorch.ToTensorV2", "params": {"p": 1.0}}]}},
+  "img_size": 512,
+  "DETECTION_THRESHOLD": 0.5,
+  "class_names": {"0": "Aortic enlargement", "1": "Atelectasis", "2": "Calcification", "3": "Cardiomegaly", "4": "Consolidation", "5": "ILD", "6": "Infiltration", "7": "Lung Opacity", "8": "Nodule/Mass", "9": "Other lesion", "10": "Pleural effusion", "11": "Pleural thickening", "12": "Pneumothorax", "13": "Pulmonary fibrosis"},
+  "WEIGHT_FILE": "faster_rcnn_xray_fpn.pth",
+  "WEIGHT_FILE2": "classifier_resnet50.pth",
+  "PATH_TO_MODEL": "models",
+  "DEVICE": "cpu",
+  "MODEL_CLASSIFIER": "tv_resnet50",
+  "DETECTION_THRESHOLD_CL" : 0.5,
+  "CLASSIFIER_N_CLASS": 2}
