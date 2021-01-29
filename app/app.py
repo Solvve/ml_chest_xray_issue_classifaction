@@ -132,9 +132,9 @@ def index():
 def results():
     if request.method == 'GET':
         result_file, names = model_inf.predict(path_to_file)
-
         if len(names) == 0:
             msg = 'No abnormalities were detected'
+            
         else:
             msg = 'Next abnormalities detected : ' + ', '.join(list(numpy.unique(names)))
 
