@@ -1,6 +1,6 @@
 # Chest abnormalities detection
 
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/ml_chest_xray_issue_classifaction/blob/master/LICENSE.txt)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Solvve/ml_chest_xray_issue_classifaction/blob/master/LICENSE)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-378/)
 [![scikit-learn 0.23.2](https://img.shields.io/badge/scikit_learn-0.23.2-blue)](https://scikit-learn.org/stable/)
 [![Solvve](https://img.shields.io/badge/made%20in-solvve-blue)](https://solvve.com/)
