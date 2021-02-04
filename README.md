@@ -22,7 +22,7 @@ And additionally we will build binary classifier to classify image - normal/abno
 
 As a result of our work we will build simple web app using Flask which is capable of taking image and detecting abnormalities on it.
 
-## Installation yolo v5 run
+## Installation yolo v5
 
 For install Yolo v5 run following commands:
 
