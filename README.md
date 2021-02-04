@@ -6,10 +6,29 @@
 [![Solvve](https://img.shields.io/badge/made%20in-solvve-blue)](https://solvve.com/)
 
 ## Description
-When you have a broken arm, radiologists help save the day—and the bone. These doctors diagnose and treat medical conditions using imaging techniques like CT and PET scans, MRIs, and, of course, X-rays. Yet, as it happens when working with such a wide variety of medical tools, radiologists face many daily challenges, perhaps the most difficult being the chest radiograph. The interpretation of chest X-rays can lead to medical misdiagnosis, even for the best practicing doctor. Computer-aided detection and diagnosis systems (CADe/CADx) would help reduce the pressure on doctors at metropolitan hospitals and improve diagnostic quality in rural areas.
+Detection of abnormalities on chest X-ray images.
 
-Existing methods of interpreting chest X-ray images classify them into a list of findings. There is currently no specification of their locations on the image which sometimes leads to inexplicable results. A solution for localizing findings on chest X-ray images is needed for providing doctors with more meaningful diagnostic assistance.
+We need to find several abnormalities on chest X-ray images.
 
+Example of images
+
+<img src="images/VinBigDataChestXray.png"
+     alt="example"
+     style="float: left; margin-right: 10px;" />
+
+For solving this problem we will apply FasterRCNN, Yolo_v5 using PyTorch and PyTorch_Lightning libraries 
+
+And additionally we will build binary classifier to classify image - normal/abnormal
+
+As a result of our work we will build simple web app using Flask which is capable of taking image and detecting abnormalities on it.
+
+## Installation yolo v5 run
+
+For install Yolo v5 run following commands:
+
+1. !git clone https://github.com/ultralytics/yolov5
+2. !mv yolov5/* ./
+3. !pip install -r requirements.txt
 
 ## Analysis and modeling
 We follow the next steps:

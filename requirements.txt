@@ -1,0 +1,6 @@
+pytorch-lightning==0.8.1
+albumentations==0.5.2
+torch==1.7.1
+opencv-python==4.5.1.48
+ensemble-boxes==1.0.4
+Flask==1.1.2
